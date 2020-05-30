@@ -1,0 +1,78 @@
+#my name is sammy  too i like cupcakes too
+#My cupcakes are good!
+#I like cookies. Hi everyone!
+'''
+ oh no  my mom is doing weird stuff
+'''
+'''
+now write something
+'''
+'''
+I love my dad!
+'''
+
+'''
+Comments and Variables
+The Childrens STEM Club
+'''
+
+from pip._vendor.distlib.compat import raw_input
+
+#Comments
+#You can write a single line comment with #
+'''
+You can write a multiple line comment with '''
+
+#Variables
+a=18
+b=18
+c=99
+print(a+b+c)
+
+
+
+#You can also print words or 'Strings"
+
+J='Jon'
+S= 'sammy'
+M='Margaret'
+Z='Zoe'
+
+print(" ") #this is a space
+
+print("Hello", J)
+print("hello",S)
+print("Hello", Z)
+print("Hello",M)
+
+print("")
+
+'''
+
+q = raw_input('What is your name?')
+print(' Hello', q)
+
+'''
+
+#If Statement
+print(a,b,c) if a == b == c else print(a, 'is not equal to', b, "or", c)
+
+print("")
+
+#for loops
+for x in range(1):
+    print('Hi', J)
+    print('Hi', M)    
+    print('hi', S)    
+    print('Hi', Z)
+    
+print("")
+
+#While Loop
+i = 1
+while i<20:
+    print(i)
+    i += 1
+
+
+
